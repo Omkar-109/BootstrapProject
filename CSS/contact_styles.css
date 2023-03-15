@@ -1,0 +1,262 @@
+body {
+    width: 100vw;
+    background-color: #3f9cff;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1200' height='720' preserveAspectRatio='none' viewBox='0 0 1200 720'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1439%26quot%3b)' fill='none'%3e%3crect width='1200' height='720' x='0' y='0' fill='rgba(0%2c 125%2c 255%2c 1)'%3e%3c/rect%3e%3cpath d='M-93.35608324675574 33.82454016921365L21.106477827616715 217.00292893900155 204.28486659740457 102.54036786462908 89.82230552303214-80.63802090515881z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M187.73895963799137-52.11483884659162L-28.129458998133316-44.57654755885138-20.59116771039308 171.2918710772733 195.2772509257316 163.75357978953306z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M-93.05 -2.94 a90.11 90.11 0 1 0 180.22 0 a90.11 90.11 0 1 0 -180.22 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1094.9235173019601 187.3514035125983L1269.81258967103 12.795359887961297 1062.180063348353-46.742308968510486z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1007.1805610722433 26.101599404967338L1009.6937075992123 170.07966750748767 1224.4042364895083 94.32091366577404z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M987.307658541095 166.89818256853437L1199.3391301657905 208.1129255698679 1240.553873167124-3.918546054827516 1028.5224015424285-45.13328905616109z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M107.08460456672849 762.7565707155642L158.68888706218155 521.1101388608201-47.8729402258341 584.2624270809313z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M127.25074794121082 808.4598231705893L221.93891564765147 614.3203091699692 27.799401647031374 519.6321414635286-66.88876605940928 713.7716554641486z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M-148.35 628.35 a200.7 200.7 0 1 0 401.4 0 a200.7 200.7 0 1 0 -401.4 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M956.59 579.41 a102.82 102.82 0 1 0 205.64 0 a102.82 102.82 0 1 0 -205.64 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M966.81 569.19 a82.38 82.38 0 1 0 164.76 0 a82.38 82.38 0 1 0 -164.76 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1292.66464507346 606.944492904953L1107.5165081218038 495.6962687243813 996.268283941232 680.8444056760375 1181.4164208928883 792.0926298566093z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1439'%3e%3crect width='1200' height='720' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+    background-repeat: round;
+    margin: 0;
+    height: 100vh;
+    font-family: helvetica;
+}
+.navbar-expand-md {
+  opacity: 0.4;
+}
+
+.material-symbols-outlined {
+  
+    color: aqua;
+    margin-left: 15px;
+    padding-top: 1px;
+    padding-left: 0px;
+    padding-bottom: 1px;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+  .material-symbols-outlined:hover{
+    font-variation-settings: 
+    'FILL' 100;
+  }
+
+
+
+.social-icon {
+    font-size: 50px;
+    color: #235aff;
+    background-color:white;
+    border-style: solid;
+    border-radius: 100%;
+    border-width: 0px;
+  } 
+.about {
+    position: fixed;
+    z-index: 10;
+    bottom: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    transition: all 0.2s ease;
+  }
+  .about .bg_links {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+    backdrop-filter: blur(5px);
+    position: absolute;
+  }
+  
+  .about .social {
+    opacity: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .about:hover {
+    width: 105px;
+    height: 105px;
+    transition: all 0.6s cubic-bezier(0.64, 0.01, 0.07, 1.65);
+  }
+  .about:hover .logo {
+    opacity: 1;
+    transition: all 0.6s ease;
+  }
+  .about:hover .social {
+    opacity: 1;
+  }
+  
+  .about:hover .social.facebook {
+    right: 0;
+    bottom: calc(100% - 40px);
+    transition: all 0.3s 0s cubic-bezier(0.64, 0.01, 0.07, 1.65);
+  }
+  
+  .about:hover .social.insta {
+    bottom: 45%;
+    right: 45%;
+    transition: all 0.3s 0.15s cubic-bezier(0.64, 0.01, 0.07, 1.65);
+  }
+  
+  .about:hover .social.twitter {
+    bottom: 0;
+    right: calc(100% - 40px);
+    transition: all 0.3s 0.25s cubic-bezier(0.64, 0.01, 0.07, 1.65);
+  }
+  
+  .wrapper {
+    width: 100vw;
+    margin: 0 auto;
+    height: 400px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: all 0.3s ease;
+  }
+  @media screen and (max-width: 767px) {
+    .wrapper {
+        height: 700px;
+   }
+  }
+  .logo {
+  
+    margin-top: 0px;
+     padding-top: 0px;
+     padding-bottom: 0px;
+     width: 30px;
+   height: 30px;
+   
+   transition: width 2s, height 2s, transform 2s;
+     
+ }
+ .logo:hover {
+   width: 40px;
+   height: 40px;
+   transform: rotate(360deg);
+ }
+
+
+
+
+
+
+
+.content {
+    max-width: 1024px;
+    width: 100%;
+    padding: 0 4%;
+    padding-top: 250px;
+    padding-bottom: 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 767px) {
+    .content {
+        padding-top: 300px;
+        flex-direction: column;
+   }
+}
+.card {
+    width: 100%;
+    max-width: 300px;
+    min-width: 200px;
+    height: 250px;
+    background-color: #292929;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 1);
+    border: 2px solid rgba(7, 7, 7, 0.12);
+    font-size: 16px;
+    transition: all 0.3s ease;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.icon1 {
+    margin: 0 auto;
+    width: 100%;
+    height: 80px;
+    max-width: 80px;
+    background: linear-gradient(90deg, #92fbff 0%, #002aff 40%, rgb(42, 42, 42) 60%);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    transition: all 0.8s ease;
+    background-position: 0px;
+    background-size: 200px;
+}
+
+a {
+    color: black;
+   
+}
+
+.card .title {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.card .text {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+    font-weight:bold;
+    letter-spacing: 2px;
+    opacity: 0;
+    max-height: 0;
+    transition: all 0.3s ease;
+}
+.card:hover {
+    height: 350px;
+    margin: 1px;
+}
+.card:hover .icon1 {
+    color:white;
+}
+.card:hover .info {
+    height: 90%;
+}
+.card:hover .text {
+    transition: all 0.3s ease;
+    opacity: 1;
+    max-height: 160px;
+}
+.card:hover .icon1 {
+    background-position: -120px;
+    transition: all 0.3s ease;
+}
+ 
+
+.card {
+    background: linear-gradient(-45deg, #7bd8ff, #e43ce7, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }

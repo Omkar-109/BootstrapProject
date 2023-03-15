@@ -1,0 +1,228 @@
+
+body {
+    background-color: #1597E5;
+    height: 100vh;
+}
+.navbar {
+    opacity: 0.5;
+}
+.material-symbols-outlined {
+  
+    color: aqua;
+    margin-left: 15px;
+    padding-top: 1px;
+    padding-left: 0px;
+    padding-bottom: 1px;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+  .material-symbols-outlined:hover{
+    font-variation-settings: 
+    'FILL' 100;
+  }
+
+.social-icon {
+    font-size: 35px;
+    background-color:white;
+    border-style: solid;
+    border-radius: 100%;
+    border-width: 0px;
+} 
+.about {
+    position: fixed;
+    z-index: 10;
+    bottom: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    transition: all 0.2s ease;
+}
+.about .bg_links {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+    backdrop-filter: blur(5px);
+    position: absolute;
+}
+
+.about .social {
+    opacity: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.about:hover {
+    width: 105px;
+    height: 105px;
+    transition: all 0.6s cubic-bezier(0.64, 0.01, 0.07, 1.65);
+}
+.about:hover .logo {
+    opacity: 1;
+    transition: all 0.6s ease;
+}
+.about:hover .social {
+    opacity: 1;
+}
+
+.about:hover .social.facebook {
+    right: 0;
+    bottom: calc(100% - 40px);
+    transition: all 0.3s 0s cubic-bezier(0.64, 0.01, 0.07, 1.65);
+}
+
+.about:hover .social.insta {
+    bottom: 45%;
+    right: 45%;
+    transition: all 0.3s 0.15s cubic-bezier(0.64, 0.01, 0.07, 1.65);
+}
+
+.about:hover .social.twitter {
+    bottom: 0;
+    right: calc(100% - 40px);
+    transition: all 0.3s 0.25s cubic-bezier(0.64, 0.01, 0.07, 1.65);
+}
+
+.wrapper {
+    width: 100vw;
+    margin: 0 auto;
+    height: 400px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: all 0.3s ease;
+}
+@media screen and (max-width: 767px) {
+    .wrapper {
+        height: 700px;
+   }
+}
+
+
+.top-title {
+    
+    
+    
+    padding-top: 40px;
+    padding-bottom: 0px;
+    margin-bottom: 30px;
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+    font-style: italic;
+
+   
+    
+    
+}
+
+
+
+#features {
+    border-radius: 30px;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 200px;
+    background-color: #1597E5;
+    background-color: #69DADB;
+    
+    display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.features-box {
+    text-align:center;
+    padding: 5%;
+    
+}
+
+h3 {
+    margin-top: 1%;
+    padding-top: 0%;
+    margin-bottom: 0%;
+    font-family:  'Courgette', cursive ,'Montserrat', sans-serif;
+    font-size: xx-large;
+    color: white;
+  
+}
+.text-h3:hover {
+    color: rgb(179, 237, 255);
+    text-shadow: 2px 2px  rgba(51, 51, 51, 1);
+    
+}
+p {
+    color:black;
+    margin-top: 1%;
+    padding-bottom: 5px;
+    font-family: 'Spectral', serif;;
+    
+}
+
+.icon {
+    color:#113CFC;
+   
+}
+
+.icon:hover{
+    color:#193498;
+    transform: scale(1.2);
+}
+
+.top-title:hover {
+    text-shadow: 2px 2px 5px whitesmoke;
+}
+
+
+.card {
+    width: 100%;
+    max-width: 250px;
+    min-width: 200px;
+    height: 250px;
+    background-color: rgba(79, 79, 79, 0.227);
+    background: rgba(79, 79, 79, 0.227);
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow:10px 10px 10px rgba(0, 0, 0, 0.6);
+    border: 2px solid rgba(188, 188, 188, 0.12);
+    transition: all 0.3s ease;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  
+}
+
+
+
+
+
+
+/* 
+for reference
+
+font-family: 'Courgette', cursive;
+    font-family: 'Days One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Parisienne', cursive;
+    font-family: 'Spectral', serif;
+
+     */
