@@ -1,1 +1,1 @@
-# BootstrapProject
+Simple website for Photo Editor app made using HTML, CSS and Bootstrap.
